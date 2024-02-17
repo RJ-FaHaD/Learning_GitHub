@@ -1,0 +1,35 @@
+.main{
+    background-color: #ffd700;
+}
+
+.navbar > .end{
+    text-decoration: black;
+}
+.navbar > .image{
+    filter: grayscale(1) brightness(0);
+    height: 100px;
+}
+.main > .list{
+    display: flex;
+} 
+.list > .li :hover{
+    background-color: black;
+    text-decoration: #ffd700;
+}
+body{
+    background-color: #ffd700;
+}
+ul > li :hover{
+    border: 5px;
+    border-color: black;
+    text-decoration: #ffd700;
+}
+.footer > .text{
+    color: #ffd700;
+    text-align: center;
+}
+.card{
+    padding: 50px;
+    margin-bottom: 3px;
+    background-color: #ffd700;
+}
