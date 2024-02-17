@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Federalist Pig</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+        <nav class="container-fluid navbar sticky d-flex justify-content-center">
+            <img class="image" src="https://images.getbento.com/accounts/22022076ca31682d32e6a3253b8e9e7c/media/images/75474fed-pig-yellow.png">
+          </nav> 
+            <div class="list">
+             <ul class="site-nav-menu" data-menu-type="desktop">
+              <li>
+                <a class="site-nav-link" data-aos="fade-right" href="/menus/">Menus</a>
+              </li>
+              <li>
+                <a class="site-nav-link" data-aos="fade-right" href="/catering/">catering</a>
+              </li>
+              <li>
+                <a class="site-nav-link" data-aos="fade-right" href="/locations/">Locations</a>
+              </li>
+              <li>
+                <a class="site-nav-link" data-aos="fade-right" href="/bbq-box/">BBQ Box</a>
+              </li>
+              <li>
+                <a class="site-nav-link" data-aos="fade-right" href="/super-club/">Super Club</a>
+              </li>
+              <li>
+                <a class="site-nav-link" data-aos="fade-right" href="/gift-cards/">Gift Cards</a>
+              </li>
+              <li>
+                <a href="/order-online/" class="btn btn-brand-alt" target="_parent">Order Online</a>
+              </li>
+              </ul>
+            </div>           
+    </div>
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://images.unsplash.com/photo-1619096252214-ef06c45683e3?q=80&w=1450&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="Sandwhich">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>SPECIAL SAUCE</h3>
+            <p>When you become a subscriber of our Monthly BBQ Box, you'll enjoy an excluive tasting menu for two or four, featuring BBQ flavour from around the world. Click below for details on this months menu. </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://media.istockphoto.com/id/1472620857/photo/tasty-butter-chicken-curry-dish-from-indian-cuisine.jpg?s=1024x1024&w=is&k=20&c=zT7eGc5_NZs9hgQNzdgPeqcJFRbH8nlEzyNCtCu_K6g=" class="d-block w-100" alt="Tikka">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>FED PIG SUPER CLUB</h3>
+            <p>When you become a subscriber of our Monthly BBQ Box, you'll enjoy an excluive tasting menu for two or four, featuring BBQ flavour from around the world. Click below for details on this months menu.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://plus.unsplash.com/premium_photo-1679072595330-67c13052bd1c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="Pasta">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>MONTHLY BBQ BOX</h3>
+            <p>When you become a subscriber of our Monthly BBQ Box, you'll enjoy an excluive tasting menu for two or four, featuring BBQ flavour from around the world. Click below for details on this months menu.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="card">
+    <div class="card" style="width: 18rem; margin-left: 50px;">
+      <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=1365&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Burger">
+      <div class="card-body">
+        <h5 class="card-title">SPECIALS</h5>
+        <p class="card-text">Pitmaster Rob is always up to something! Check out our rotating specialty sandwiches and limited drops.
+        </p>
+        <a href="#" class="btn btn-primary">SEE THE SPECIALS</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem; margin-right: 50px;">
+      <img src="https://media.istockphoto.com/id/1333944307/photo/close-up-on-a-chef-preparing-burgers-at-a-restaurant.webp?b=1&s=170667a&w=0&k=20&c=gqFFLU3eDiyLm0IzKS0s7YBJir1AsvNoaVvfSG9XX4k=" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">SUPPER CLUB</h5>
+        <p class="card-text">Once a month, Chef & Pitmaster Rob Sonderman presents a new 4-course dine-in experience that goes beyond our regular offerings and puts a smoky spin on gourmet cuisine.
+         </p>
+        <a href="#" class="btn btn-primary">GET YOUR TICKETS</a>
+      </div>
+    </div>
+   </div>
+   <div class="footer sticky_bottom bg-black">
+      <div class="text">
+        We use cookies to improve our browsing experience on our site
+      </div>
+   </div>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+    <script>
+      AOS.init();
+    </script>
+
+  </body>
